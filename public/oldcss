@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+h2, h3 {
+  font-family: Cousine;
+}
+
+input {
+  outline:none;
+  height:25px;
+  border: 2px solid #ADD8E6;
+  margin:0px;
+  margin-right:10px;
+  padding-left:1%;
+}
+a{
+  color:#7997a1;
+  text-decoration: none;
+  font-family: Cousine;
+}
+a:hover{
+  color:#45565c;
+}
+#button{
+  outline:none;
+  display:inline-block;
+  height:25px;
+  background-color:#ADD8E6;
+  color:white;
+  border:none;
+  padding:5px 10px 1px 10px;
+  transition:.5s all;
+  font-family:sans-serif;
+}
+#button,input{
+  border-radius:5px;
+}
+#button:hover{
+  cursor:pointer;
+  background-color:#7997a1;
+  transform:scale(1.1);
+}
+h4{
+  font-family: Cousine;
+  font-size: 12px;
+}

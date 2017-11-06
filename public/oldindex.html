@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="shortURLApp">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+        <script src="/client.js"></script>
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+       <center>
+        <h2>URL Shortener Microservice</h2>
+        <h3>An app by Conner Isaacs</h3>
+        <a href="https://github.com/ConnerIsaacs">More work on my Github</a>
+        <h4>Technologies used: Node.js, Express, MongoDB, Mongoose, Javascript, HTML, CSS</h4>
+        <section ng-controller="shortAppCtrl">
+            <input placeHolder="Enter URL"type="text" id="url" ng-model="urlToShorten">
+            <a id="button" ng-href="/new/{{urlToShorten}}" target="blank">Get ShortURL</a>
+        </section>
+  </center>
+    </body>
+</html>
